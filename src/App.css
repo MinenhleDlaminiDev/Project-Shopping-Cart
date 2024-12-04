@@ -112,7 +112,7 @@ header{
 
 .cartCard{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
   border-radius: 5px;
