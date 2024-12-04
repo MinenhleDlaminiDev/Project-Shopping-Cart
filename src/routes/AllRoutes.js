@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, Cart } from "../pages"
+import { Home, Cart } from "../pages";
 
 const AllRoutes = () => {
     return ( 
