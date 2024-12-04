@@ -1,7 +1,10 @@
+import useTitle from '../hooks/useTitle';
 import { ProductCard } from '../components';
 import '../App.css';
 
 const Home = () => {
+    useTitle("Home");
+
     const products = [
         {"id": 1, "name": "Beats Studio Pro Wireless Headphones", price: "R1 500", "image": "https://www.digicape.co.za/image/cache/catalog/product/MQTP3AEA/MQTQ3-1000x1000.jpg"},
         {"id": 2, "name": "Sony WH-CH720N Noise Canceling Wireless Headphones", price: "R1 300", "image": "https://m.media-amazon.com/images/I/41tp0JPPlmL.jpg"},

@@ -1,7 +1,9 @@
+import useTitle from '../hooks/useTitle';
 import { CartCard } from '../components';
 import '../App.css';
 
 const Cart = () => {
+    useTitle("Cart");
 
     const products = [
         {"id": 1, "name": "Beats Studio Pro Wireless Headphones", price: "R1 500", "image": "https://www.digicape.co.za/image/cache/catalog/product/MQTP3AEA/MQTQ3-1000x1000.jpg"},
