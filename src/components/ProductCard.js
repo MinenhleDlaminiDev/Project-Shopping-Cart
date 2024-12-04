@@ -1,6 +1,17 @@
-const ProductCard = () => {
+import '../App.css';
+
+const ProductCard = ({product}) => {
+    const { name, price, image } = product;
+    
     return ( 
-        <div>Product Card</div>
+        <div className='productCard'>
+            <img src={image} alt="" />
+            <p className='name'>{name}</p>
+            <div className='action'>
+                <p>{price}</p>
+                <button>Add To Cart</button>
+            </div>
+        </div>
      );
 }
  

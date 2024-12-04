@@ -1,4 +1,4 @@
-export { Header } from "./Header";
+export { default as Header } from "./Header";
 
-export { ProductCard } from "./ProductCard";
-export { CardCard } from "./CartCard";
+export { default as ProductCard } from "./ProductCard";
+export { default as CardCard } from "./CartCard";
